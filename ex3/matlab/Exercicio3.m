@@ -31,7 +31,6 @@ somaNusp = 23; % Soma NUSP (10802705)
 % Inicialização dos pesos da camada escondida
 % número de nós da camada escondida x número de entradas
 W1 = 2 * rand(somaNusp, 16) - 1; 
-
 % Inicialização dos pesos da camada de saída
 % número de saídas x número de nós da camada escondida
 W2 = 2 * rand(3, somaNusp) - 1; % Pesos da camada saída: 3

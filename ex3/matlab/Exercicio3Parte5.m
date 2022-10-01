@@ -3,7 +3,6 @@
 % Felipe Pimenta Bernardo - 10788697
 % Henrique Sander Lourenço - 10802705
 
-
 clear all 
 close all 
 clc
@@ -15,7 +14,7 @@ load('W1');
 load('W2');
 
 y = zeros(1, 3); 
-v1 = W1 * X';
+v1 = W1 * X'
 y1 = sigmoid(v1);
 v = W2 * y1;
 y = sigmoid(v); 
