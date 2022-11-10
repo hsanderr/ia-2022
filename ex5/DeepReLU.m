@@ -1,9 +1,9 @@
-% SEL0362 - Inteligencia Artificial
+Ap% SEL0362 - Inteligencia Artificial
 % Exercicio 5
 % Felipe Pimenta Bernardo - 10788697
 % Henrique Sander Lourenco - 10802705
 
-% Aprendizado profundo com funcao unitaria linear retificada (ReLU),
+% Aprendizagem profundo com funcao unitaria linear retificada (ReLU),
 % backpropagation e entropia cruzada
 function [W1, W2, W3, errAvg] = DeepReLU(W1, W2, W3, X, D) 
     alpha = 0.01; % Taxa de aprendizagem
